@@ -65,9 +65,9 @@ Inverse Kinematics involves determining the joint angles (𝜃_1, 𝜃_2, 𝜃_3
 Choose the desired position (𝑥_𝑑, 𝑦_d, 𝑧_𝑑) in the workspace where you want the end-effector to move.
 
 2. **Calculate 𝜃_1:**
-  ```
-θ_1 = arctan 2(y_d, x_d)
-  ```
+<p align="center">
+  <img src="https://github.com/GDHadeel/3-DoF-Robot-Arm-Kinematics/assets/126657301/b6e31758-a511-4c3d-8be5-a13313ac7167" alt="Robotic Arm Image 1" width="700" height="100">
+</p>
 
 3. **Calculate 𝑟 and 𝐷:**
 First, calculate 𝑟:
