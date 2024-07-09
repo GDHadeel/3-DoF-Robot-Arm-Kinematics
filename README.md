@@ -45,11 +45,13 @@ Each joint's transformation matrix depends on its respective joint angle (\(\the
 2. **Compute the Overall Transformation Matrix:**
 Combine the transformation matrices of all joints to get the overall transformation from the base to the end-effector.
 To write the multiplication of transformation matrices \(T = T_1 \times T_2 \times T_3\) in GitHub Markdown, you can use LaTeX notation within math blocks for better clarity. GitHub supports rendering LaTeX for mathematical expressions.
+
+(\ T = T_1 ) 
    \[
    T = T_1 \times T_2 \times T_3
    \]
 
-3. **Extract the End-Effector Position:**
+4. **Extract the End-Effector Position:**
 
    The position of the end-effector in the workspace can be obtained from the translation part of the final transformation matrix \( T \).
 
