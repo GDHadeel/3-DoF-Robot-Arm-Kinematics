@@ -124,7 +124,7 @@ First, calculate 𝑟:
 θ_3 ≈ arctan2 (−2,4.24) − 30.96 − 45 ≈ −18.43 degrees
   ```
 
-These calculated angles 𝜃_1 ≈ 45, θ_2 ≈ 30.96, and 𝜃_3 ≈ −18.43 would position the end-effector at the desired coordinates.
+These calculated angles 𝜃_1 ≈ 45, θ_2 ≈ 30.96, and 𝜃_3 ≈ −18.43 degrees would position the end-effector at the desired coordinates.
 
 ## Acknowledgments
 https://www.youtube.com/watch?v=1-FJhmey7vk
