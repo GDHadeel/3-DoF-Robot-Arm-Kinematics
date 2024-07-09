@@ -1,20 +1,29 @@
 # 3-DoF-Robot-Arm-Kinematics
 
+# Task 3: Calculate Inverse and Forward Kinematics for a Robot with 3 Degrees of Freedom 
 
-* Joint 1:
-T1 = [[cos(θ1), -sin(θ1), 0, L1 * cos(θ1)],
-      [sin(θ1), cos(θ1), 0, L1 * sin(θ1)],
-      [0, 0, 1, 0],
-      [0, 0, 0, 1]]
+## Description
+This task involves calculating the Forward Kinematics (FK) and Inverse Kinematics (IK) for a robotic arm with 3 Degrees of Freedom (DoF). The goal is to determine the position and orientation of the robot's end-effector based on the joint angles (FK) and to find the required joint angles to achieve a desired end-effector position (IK).
 
-* Join 2:
-T2 = [[cos(θ2), -sin(θ2), 0, L2 * cos(θ2)],
-      [sin(θ2), cos(θ2), 0, L2 * sin(θ2)],
-      [0, 0, 1, 0],
-      [0, 0, 0, 1]]
+## Forward Kinematics (FK)
 
-* Join 3: 
-T3 = [[cos(θ3), -sin(θ3), 0, L3 * cos(θ3)],
-      [sin(θ3), cos(θ3), 0, L3 * sin(θ3)],
-      [0, 0, 1, 0],
-      [0, 0, 0, 1]]
+Forward Kinematics involves determining the position and orientation of the robot's end-effector (usually a gripper or tool) based on the joint angles.
+
+### Steps for FK:
+
+1. **Define the Transformation Matrices for each Joint:**
+
+   Each joint's transformation matrix depends on its respective joint angle (\(\theta_i\)) and link length (\(L_i\)).
+
+   For Joint 1:
+   ```math
+   T_1 = \begin{bmatrix}
+   \cos(\theta_1) & -\sin(\theta_1) & 0 & L1 \cos(\theta_1) \\
+   \sin(\theta_1) & \cos(\theta_1) & 0 & L1 \sin(\theta_1) \\
+   0 & 0 & 1 & 0 \\
+   0 & 0 & 0 & 1 \\
+   \end{bmatrix}
+
+
+
+## Acknowledgments
