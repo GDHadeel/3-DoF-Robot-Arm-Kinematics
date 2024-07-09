@@ -72,7 +72,7 @@ Choose the desired position (𝑥_𝑑, 𝑦_d, 𝑧_𝑑) in the workspace wher
 3. **Calculate 𝑟 and 𝐷:**
 First, calculate 𝑟:
 <p align="center">
-  <img src="https://github.com/GDHadeel/3-DoF-Robot-Arm-Kinematics/assets/126657301/b0d1fca8-0d00-4248-a705-b1d018c00e48" alt="Robotic Arm Image 1" width="800" height="200">
+  <img src="https://github.com/GDHadeel/3-DoF-Robot-Arm-Kinematics/assets/126657301/b0d1fca8-0d00-4248-a705-b1d018c00e48" alt="Robotic Arm Image 1" width="700" height="100">
 </p>
    
   ```
