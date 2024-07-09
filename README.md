@@ -23,6 +23,15 @@ Forward Kinematics involves determining the position and orientation of the robo
    0 & 0 & 1 & 0 \\
    0 & 0 & 0 & 1 \\
    \end{bmatrix}
+*
+   For Joint 2:
+   ```math
+   T_1 = \begin{bmatrix}
+   \cos(\theta_2) & -\sin(\theta_2) & 0 & L2 \cos(\theta_2) \\
+   \sin(\theta_2) & \cos(\theta_2) & 0 & L2 \sin(\theta_) \\
+   0 & 0 & 1 & 0 \\
+   0 & 0 & 0 & 1 \\
+   \end{bmatrix}
 
 
 
