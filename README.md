@@ -74,10 +74,20 @@ First, calculate 𝑟:
 <p align="center">
   <img src="https://github.com/GDHadeel/3-DoF-Robot-Arm-Kinematics/assets/126657301/b0d1fca8-0d00-4248-a705-b1d018c00e48" alt="Robotic Arm Image 1" width="700" height="100">
 </p>
-   
-  ```
-θ_1 = arctan 2(y_d, x_d)
-  ```
+Then, calculate 𝐷:
+<p align="center">
+  <img src="https://github.com/GDHadeel/3-DoF-Robot-Arm-Kinematics/assets/126657301/16031153-b1db-4c2d-a3af-d7f7c87ee621" alt="Robotic Arm Image 1" width="700" height="100">
+</p>
+
+4. **Calculate θ_2:**
+<p align="center">
+  <img src="https://github.com/GDHadeel/3-DoF-Robot-Arm-Kinematics/assets/126657301/a9076ed9-d04d-4683-9b68-88cdcca45ed2" alt="Robotic Arm Image 1" width="700" height="100">
+</p>
+
+5. **Calculate θ_3:**
+<p align="center">
+  <img src="https://github.com/GDHadeel/3-DoF-Robot-Arm-Kinematics/assets/126657301/d36ff166-459d-4269-88da-08f18abbfc86" alt="Robotic Arm Image 1" width="700" height="100">
+</p>
 
 
 
