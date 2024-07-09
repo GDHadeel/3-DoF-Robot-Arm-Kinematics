@@ -74,7 +74,7 @@ First, calculate 𝑟:
 <p align="center">
   <img src="https://github.com/GDHadeel/3-DoF-Robot-Arm-Kinematics/assets/126657301/b0d1fca8-0d00-4248-a705-b1d018c00e48" alt="Robotic Arm Image 1" width="700" height="100">
 </p>
-Then, calculate 𝐷:
+ Then, calculate 𝐷:
 <p align="center">
   <img src="https://github.com/GDHadeel/3-DoF-Robot-Arm-Kinematics/assets/126657301/16031153-b1db-4c2d-a3af-d7f7c87ee621" alt="Robotic Arm Image 1" width="700" height="100">
 </p>
@@ -89,10 +89,43 @@ Then, calculate 𝐷:
   <img src="https://github.com/GDHadeel/3-DoF-Robot-Arm-Kinematics/assets/126657301/d36ff166-459d-4269-88da-08f18abbfc86" alt="Robotic Arm Image 1" width="700" height="100">
 </p>
 
+### Example Calculation:
+* Assume 𝐿_1 = 2, L2 = 2, 𝐿_3 = 1
+* Desired end-effector position (x_d, y_d, z_d) = (3,3,0).
 
 
 
+1. **Calculate θ_1:**
+<p align="center">
+  <img src="https://github.com/GDHadeel/3-DoF-Robot-Arm-Kinematics/assets/126657301/36221a36-f623-4549-ac98-508ffd1045a1" alt="Robotic Arm Image 1" width="700" height="100">
+</p>
 
+2. **Calculate 𝑟:**
+<p align="center">
+  <img src="https://github.com/GDHadeel/3-DoF-Robot-Arm-Kinematics/assets/126657301/c0ec7972-ba03-4d58-a7c7-c86180e2a9ca" alt="Robotic Arm Image 1" width="700" height="100">
+</p>
 
+3. **Calculate 𝐷:**
+<p align="center">
+  <img src="https://github.com/GDHadeel/3-DoF-Robot-Arm-Kinematics/assets/126657301/f4ec5f07-ce5f-4eca-9913-e25221eba795" alt="Robotic Arm Image 1" width="700" height="100">
+</p>
+
+4. **Calculate θ_2:**
+<p align="center">
+  <img src="https://github.com/GDHadeel/3-DoF-Robot-Arm-Kinematics/assets/126657301/9134da76-ee69-45a9-a5a1-6449d54de761" alt="Robotic Arm Image 1" width="700" height="100">
+</p>
+
+5. **Calculate θ_3:**
+<p align="center">
+  <img src="https://github.com/GDHadeel/3-DoF-Robot-Arm-Kinematics/assets/126657301/18bff842-96e7-4b54-a44f-c9a917338444" alt="Robotic Arm Image 1" width="700" height="100">
+</p>
+
+2. **Calculate 𝜃_1:**
+  ```
+θ_3 ≈ arctan2 (−2,4.24) − 30.96 − 45 ≈ −18.43 degrees
+∘
+  ```
+
+These calculated angles 𝜃_1 ≈ 45, θ_2 ≈ 30.96, and 𝜃_3 ≈ −18.43 would position the end-effector at the desired coordinates.
 
 ## Acknowledgments
