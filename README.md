@@ -15,6 +15,7 @@ Forward Kinematics involves determining the position and orientation of the robo
 
    Each joint's transformation matrix depends on its respective joint angle (\(\theta_i\)) and link length (\(L_i\)).
 
+*
    For Joint 1:
    ```math
    T_1 = \begin{bmatrix}
@@ -26,12 +27,23 @@ Forward Kinematics involves determining the position and orientation of the robo
 *
    For Joint 2:
    ```math
-   T_1 = \begin{bmatrix}
+   T_2 = \begin{bmatrix}
    \cos(\theta_2) & -\sin(\theta_2) & 0 & L2 \cos(\theta_2) \\
-   \sin(\theta_2) & \cos(\theta_2) & 0 & L2 \sin(\theta_) \\
+   \sin(\theta_2) & \cos(\theta_2) & 0 & L2 \sin(\theta_2) \\
    0 & 0 & 1 & 0 \\
    0 & 0 & 0 & 1 \\
    \end{bmatrix}
+*
+   For Joint 3:
+   ```math
+   T_3 = \begin{bmatrix}
+   \cos(\theta_3) & -\sin(\theta_3) & 0 & L3 \cos(\theta_3) \\
+   \sin(\theta_3) & \cos(\theta_3) & 0 & L3 \sin(\theta_3) \\
+   0 & 0 & 1 & 0 \\
+   0 & 0 & 0 & 1 \\
+   \end{bmatrix}
+
+2. **Compute the Overall Transformation Matrix:**
 
 
 
