@@ -44,9 +44,9 @@ Each joint's transformation matrix depends on its respective joint angle (\(\the
 
 2. **Compute the Overall Transformation Matrix:**
 Combine the transformation matrices of all joints to get the overall transformation from the base to the end-effector.
- ```
-T=T_1 × T_2 × T_3
- ```
+   \[
+   T = T_1 \times T_2 \times T_3
+   \]
 
 
 
