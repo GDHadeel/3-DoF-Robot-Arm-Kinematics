@@ -70,101 +70,14 @@ Choose the desired position (𝑥_𝑑, 𝑦_d, 𝑧_𝑑) in the workspace wher
   ```
 
 3. **Calculate 𝑟 and 𝐷:**
-
+First, calculate 𝑟:
+<p align="center">
+  <img src="https://github.com/GDHadeel/3-DoF-Robot-Arm-Kinematics/assets/126657301/b0d1fca8-0d00-4248-a705-b1d018c00e48" alt="Robotic Arm Image 1" width="400" height="400">
+</p>
    
   ```
 θ_1 = arctan 2(y_d, x_d)
   ```
-
-
-
-
-
-
-
-## Inverse Kinematics (IK)
-
-Inverse Kinematics involves determining the joint angles (θ_1, θ_2, θ_3) that achieve a desired end-effector position.
-
-### Steps for IK:
-
-1. **Specify the Desired End-Effector Position:**
-
-   Choose the desired position (x_d, y_d, z_d) in the workspace where you want the end-effector to move.
-
-2. **Calculate θ_1:**
-
-   \[
-   \theta_1 = \arctan2(y_d, x_d)
-   \]
-
-3. **Calculate r and D:**
-
-   First, calculate r:
-   \[
-   r = \sqrt{x_d^2 + y_d^2}
-   \]
-
-   Then, calculate D:
-   \[
-   D = \frac{r^2 - L1^2 - L2^2}{2 \cdot L1 \cdot L2}
-   \]
-
-4. **Calculate θ_2:**
-
-   \[
-   \theta_2 = \arctan2(\sqrt{1 - D^2}, D)
-   \]
-
-5. **Calculate θ_3:**
-
-   \[
-   \theta_3 = \arctan2(z_d - L1, r) - \theta_2 - \theta_1
-   \]
-
-### Example Calculation
-
-Let's go through a quick example:
-
-- Assume L1 = 2, L2 = 2, L3 = 1.
-- Desired end-effector position (x_d, y_d, z_d) = (3, 3, 0).
-
-1. **Calculate θ_1:**
-
-   \[
-   \theta_1 = \arctan2(3, 3) = 45^\circ
-   \]
-
-2. **Calculate r:**
-
-   \[
-   r = \sqrt{3^2 + 3^2} = \sqrt{18} \approx 4.24
-   \]
-
-3. **Calculate D:**
-
-   \[
-   D = \frac{4.24^2 - 2^2 - 2^2}{2 \cdot 2 \cdot 2} = \frac{18 - 4 - 4}{8} = 1.25
-   \]
-
-4. **Calculate θ_2:**
-
-   \[
-   \theta_2 = \arctan2(\sqrt{1 - 1.25^2}, 1.25) \approx \arctan2(0.75, 1.25) \approx 30.96^\circ
-   \]
-
-5. **Calculate θ_3:**
-
-   \[
-   \theta_3 = \arctan2(0 - 2, 4.24) - 30.96^\circ - 45^\circ
-   \]
-   \[
-   \theta_3 \approx \arctan2(-2, 4.24) - 30.96^\circ - 45^\circ \approx -18.43^\circ
-   \]
-
-These calculated angles θ_1 ≈ 45^\circ, θ_2 ≈ 30.96^\circ, and θ_3 ≈ -18.43^\circ would position the end-effector at the desired coordinates.
-
-
 
 
 
