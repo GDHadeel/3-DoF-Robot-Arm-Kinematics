@@ -120,12 +120,11 @@ First, calculate 𝑟:
   <img src="https://github.com/GDHadeel/3-DoF-Robot-Arm-Kinematics/assets/126657301/18bff842-96e7-4b54-a44f-c9a917338444" alt="Robotic Arm Image 1" width="700" height="100">
 </p>
 
-2. **Calculate 𝜃_1:**
   ```
 θ_3 ≈ arctan2 (−2,4.24) − 30.96 − 45 ≈ −18.43 degrees
-∘
   ```
 
 These calculated angles 𝜃_1 ≈ 45, θ_2 ≈ 30.96, and 𝜃_3 ≈ −18.43 would position the end-effector at the desired coordinates.
 
 ## Acknowledgments
+https://www.youtube.com/watch?v=1-FJhmey7vk
