@@ -54,6 +54,7 @@ The position of the end-effector in the workspace can be obtained from the trans
    [x,y,z] = [T_14, T_24, T_34]
   ```
 
+---
 
 ## Inverse Kinematics (IK)
 
