@@ -1,6 +1,6 @@
 # 3-DoF-Robot-Arm-Kinematics
 
-# Task 3: Calculate Inverse and Forward Kinematics for a Robot with 3 Degrees of Freedom 
+# Task 3: Calculate Inverse and Forward Kinematics for a Robot with 3 Degrees of Freedom
 
 ## Description
 This task involves calculating the Forward Kinematics (FK) and Inverse Kinematics (IK) for a robotic arm with 3 Degrees of Freedom (DoF). The goal is to determine the position and orientation of the robot's end-effector based on the joint angles (FK) and to find the required joint angles to achieve a desired end-effector position (IK).
